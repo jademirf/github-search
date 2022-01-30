@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import useGithub from '../../hooks/github-hooks'
 import * as S from './Styled'
 
@@ -6,9 +6,13 @@ const UserProfile = () => {
 
   const { githubState } = useGithub();
 
+  useEffect(() => {
+    console.log(githubState)
+  },[githubState])
+
   return (
     <S.Container>
-      <S.Avatar src="https://avatars.githubusercontent.com/u/6626665?v=4" alt="user profile avatar" />
+      <S.Avatar src={githubState.user.avatar} alt="user profile avatar" />
       <S.WrapperUserInfos>
         <div>
           <h2>{githubState.user.name}</h2>
