@@ -1,13 +1,12 @@
 import React from 'react';
 import * as S from './Styled'
 
-const Home = ( {children} ) => {
+const Starred = ( {} ) => {
   return (
     <S.Container>
-      <header>Page title</header>
-      {children}
+      <header>User Starred Repositories</header>
     </S.Container>
   );
 };
 
-export default Home
+export default Starred
