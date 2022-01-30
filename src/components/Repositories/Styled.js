@@ -10,24 +10,14 @@ export const Container = styled.section`
   border-radius: 10px;
   width: 100%;
 `;
-
 export const WrapperCards = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   border: 1px solid;
   padding: 1em;
   border-radius: 10px;
-`;
-
-export const Card = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  border: 1px solid;
-  margin: 1em;
-  padding: 1em;
-  border-radius: 10px;
+  width: 100%;
 `;
 
 export const WrapperStatus  = styled.div`

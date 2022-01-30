@@ -1,7 +1,11 @@
 import React from 'react';
+import useGithub from '../../hooks/github-hooks'
 import * as S from './Styled'
 
-const UserProfile = ({ }) => {
+const UserProfile = ({}) => {
+
+  const { githubState } = useGithub();
+
   return (
     <S.Container>
       <S.Avatar src="https://avatars.githubusercontent.com/u/6626665?v=4" alt="user profile avatar" />
