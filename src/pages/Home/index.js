@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './Styled'
+import Header from '../../components/Hearder'
 
 const Home = ( {children} ) => {
   return (
     <S.Container>
-      <header>Page title</header>
+      <Header/>
       {children}
     </S.Container>
   );

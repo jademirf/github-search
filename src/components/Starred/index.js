@@ -2,11 +2,8 @@ import React from 'react';
 import * as S from './Styled'
 import CardRepository from '../CardRepository'
 
-const Starred = ( {} ) => {
-  const data = {
-    name: 'nome do repositório',
-    link: 'https://github.com/users/jademirf'
-  }
+const Starred = () => {
+
   return (
     <S.Container>
       <header>User Starred Repositories</header>

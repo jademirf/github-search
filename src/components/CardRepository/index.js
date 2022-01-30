@@ -19,7 +19,7 @@ const CardRepository = ({name}) => {
         <span>10</span>
       </div>
     </S.CardDetails>
-    <a href="#">link para o repositório</a>
+    <a href="https://www.google.com">link para o repositório</a>
   </S.Card>;
 }
 

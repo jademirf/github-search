@@ -2,7 +2,7 @@ import React from 'react'
 import * as S from './Styled'
 import CardRepository from '../CardRepository'
 
-const Repositories = ({ }) => {
+const Repositories = () => {
   return (
     <S.Container>
       <header>User Repositories</header>
